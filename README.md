@@ -1,8 +1,9 @@
+<p><picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
+  <img src="assets/header-dark.svg" width="100%" alt="SilNest (声藏): an offline music player for iPhone and iPad, with no account and no ads. On the App Store; privacy label Data Not Collected. Swift and SwiftUI.">
+</picture></p>
+
 <div align="center">
-
-<img src="assets/icon.jpg" width="128" alt="SilNest app icon">
-
-# SilNest (声藏)
 
 **Your music, always with you, offline.** An offline local-music player for iPhone and iPad.
 
@@ -54,11 +55,18 @@ The App Store privacy label is **Data Not Collected**. In short (see the full po
 - [Support](https://yecanyuan.com/apps/silnest/support/)
 - [Privacy policy](https://yecanyuan.com/apps/silnest/privacy/)
 
+### Built with
+
+Swift and SwiftUI, AVFoundation for playback, and [whisper.cpp](https://github.com/ggml-org/whisper.cpp) (through SwiftWhisper) for the on-device lyrics.
+
 ### About this repository
 
-The source code of SilNest is private. This repository is only an introduction page.
+The source code of SilNest is private. This repository is only an introduction page, so there is nothing to build or run here.
 
 By Canyuan Ye.
+
+<!-- License (R3.3 #162): not chosen yet. The app is not open source and the icon and screenshots are its own artwork,
+     so the suggestion is to add no open-source license here (all rights reserved). If you decide otherwise, add LICENSE and a section here. -->
 
 ---
 
@@ -101,8 +109,12 @@ App Store 隐私标签为“未收集数据”（Data Not Collected）。简要�
 - [技术支持](https://yecanyuan.com/apps/silnest/support/)
 - [隐私政策](https://yecanyuan.com/apps/silnest/privacy/)
 
+### 技术
+
+Swift、SwiftUI，播放用 AVFoundation；设备端歌词识别用 [whisper.cpp](https://github.com/ggml-org/whisper.cpp)（通过 SwiftWhisper）。
+
 ### 关于本仓库
 
-声藏的源代码不公开。本仓库仅作为介绍页。
+声藏的源代码不公开。本仓库仅作为介绍页，没有可以构建或运行的内容。
 
 作者：叶璨源（Canyuan Ye）
