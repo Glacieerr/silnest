@@ -65,9 +65,6 @@ The source code of SilNest is private. This repository is only an introduction p
 
 By Canyuan Ye.
 
-<!-- License (R3.3 #162): not chosen yet. The app is not open source and the icon and screenshots are its own artwork,
-     so the suggestion is to add no open-source license here (all rights reserved). If you decide otherwise, add LICENSE and a section here. -->
-
 ---
 
 <a id="中文"></a>
